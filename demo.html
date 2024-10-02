@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-self: center;
+            flex-direction: column;
+            
+        }
+        h2{
+            font-size: 68px;
+            margin: 8px;
+            display: none;
+        }
+
+        @media (min-width: 1024px){
+            .PC{
+                display: block;
+            }
+        }
+        @media (min-width: 740px) and (max-width: 1023px) {
+            .Tablet{
+                display: block;
+            }
+        }
+        @media (max-width: 740px) {
+            .Mobile{
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2 class="PC">PC</h2>
+    <h2 class="Tablet">Tablet</h2>
+    <h2 class="Mobile">Mobile</h2>
+
+
+</body>
+
+</html>
